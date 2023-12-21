@@ -1,0 +1,61 @@
+.registration {
+    background-color: #FFF;
+    padding: 40px; 
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 400px; 
+    margin: auto; 
+}
+
+h2 {
+    color: #313154;
+    margin-bottom: 30px; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px; 
+    font-weight: 600;
+    color: #888;
+}
+
+input {
+    width: 100%;
+    padding: 15px; 
+    margin-bottom: 20px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    background-color: #EA40A4;
+    color: #FFF;
+    cursor: pointer;
+    font-weight: 700;
+    transition: background-color 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #C92B87;
+}
+
+p {
+    margin-top: 20px;
+    color: #888;
+}
+
+a {
+    color: #EA40A4;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
